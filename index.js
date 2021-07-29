@@ -1,11 +1,15 @@
 const fs = require("fs");
 const data = fs.readFileSync( "./rawdata/"+process.argv[2] ).toString("utf8");
 
+// command: node . zHV_aktuell_csv.2021-07-29.csv
+
 /**
  * Alle Haltestellen 
  * @type {Object.<string, Haltestelle>}
  */
-const ZHV = {};
+const Stations = {};
+
+
 
 /**
  * Alle Gemeinden
@@ -22,19 +26,13 @@ var anzStationen = 0, anzMasten = 0, anzBereiche = 0;
 /**
  * @typedef Haltestelle
  * @property {String} n name
- * @property {String} d dauerhafte haltestellen id
- * @property {LatLon} c coords
- * @property {Number} m Municipality id:  bbkkksss  [b=bundesland, k=kreisid, s=stadtid] ( https://de.wikipedia.org/wiki/Amtlicher_Gemeindeschl%C3%BCssel)
- * @property {Number} di District id
+ * @property {String} i haltestellen id (der letzte teil der dhid, erster teil ist "de", zweiter landkreisschlüssel (property m) )
+ * @property {[number, number]} c coords [latitude, longitude]
+ * @property {number} m Municipality id:  bbkkksss  [b=bundesland, k=kreisid, s=stadtid] ( https://de.wikipedia.org/wiki/Amtlicher_Gemeindeschl%C3%BCssel)
+ * @property {Number} d District id
  * @property {String} a authority (avv, etc)
  * @property {String} des description
  * @property {Boolean} s is serviced? (if not defined, read as true)
- */
-
-/**
- * @typedef LatLon
- * @property {Number} lat latitude
- * @property {Number} lon longitude
  */
 
 /**
@@ -60,10 +58,11 @@ rows.forEach( (row, rowNum) => {
 
     /** @type {Haltestelle} */
     var entryObject = {
-        c: {} // to be able to assign without error
+        c: [0, 0] // to be able to assign without error
     };
     var entryType;
     var entryParent;
+    var entryId;
     var municipality = {};
     var district = {};
 
@@ -85,13 +84,14 @@ rows.forEach( (row, rowNum) => {
         // assign field to current object
         switch (key) {
             case "DHID":
-                return  entryObject.d = field;
+                entryObject.i = field.split(":").slice(2).map((v) => Number.parseInt(v));
+                return entryId = field;
             case "Name":
                 return entryObject.n = field;
             case "Longitude":
-                return entryObject.c.lon = Number.parseFloat(field);
+                return entryObject.c[1] = Number.parseFloat(field.replace(",", "."));
             case "Latitude":
-                return entryObject.c.lat = Number.parseFloat(field);
+                return entryObject.c[0] = Number.parseFloat(field.replace(",", "."));
             case "Authority":
                 var idx = Authorities.indexOf(field);
                 if(idx === -1){
@@ -108,7 +108,7 @@ rows.forEach( (row, rowNum) => {
                 return entryObject.m = Number.parseInt(field);
             case "DistrictCode":
                 district.key = Number.parseInt(field);
-                return entryObject.di = Number.parseInt(field) || undefined;
+                return entryObject.d = Number.parseInt(field) || undefined;
             case "Municipality":
                 return municipality.val = field;
             case "District":
@@ -130,11 +130,12 @@ rows.forEach( (row, rowNum) => {
     //console.log(entryType);
     switch(entryType) {
         case "S": // HAltestelle
-            ZHV[entryObject.d] = entryObject;
+            Stations[entryId] = entryObject;
             anzStationen++;
             break;
         case "A": // bereich
-            //console.log("Ignoring BEreich")
+            //console.log("Ignoring BEreich");
+            //console.log(JSON.stringify(entryObject))
             anzBereiche++;
             break;
         case "Q": // mast/steig
@@ -165,18 +166,20 @@ console.log(
     ${anzStationen} Stationen
     ${anzMasten} H-Masten/Gleise
     ${anzBereiche} Bereiche
+In: 
+    ${Object.keys(Municipalities).length} Gemeinden
 `)
 
 
 console.log("Saving...")
-fs.writeFileSync("./refineddata/stations.json", JSON.stringify(ZHV));
+fs.writeFileSync("./refineddata/stations.json", JSON.stringify(Stations));
 fs.writeFileSync("./refineddata/municipalities.json", JSON.stringify(Municipalities));
 fs.writeFileSync("./refineddata/authorities.json", JSON.stringify(Authorities));
 
 console.log("Saving Debug...")
 
 
-fs.writeFileSync("./refineddata/stationsDebug.json", debugJSON(ZHV));
+fs.writeFileSync("./refineddata/stationsDebug.json", debugJSON(Stations));
 fs.writeFileSync("./refineddata/municipalitiesDebug.json", debugJSON(Municipalities));
 
 

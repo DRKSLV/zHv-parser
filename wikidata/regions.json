@@ -1,0 +1,973 @@
+{
+    "01": {
+        "n": "Schleswig-Holstein",
+        "k": {
+            "051": {
+                "n": "Dithmarschen"
+            },
+            "053": {
+                "n": "Herzogtum Lauenburg"
+            },
+            "054": {
+                "n": "Nordfriesland"
+            },
+            "055": {
+                "n": "Ostholstein"
+            },
+            "056": {
+                "n": "Pinneberg"
+            },
+            "057": {
+                "n": "Plön"
+            },
+            "058": {
+                "n": "Rendsburg-Eckernförde"
+            },
+            "059": {
+                "n": "Schleswig-Flensburg"
+            },
+            "060": {
+                "n": "Segeberg"
+            },
+            "061": {
+                "n": "Steinburg"
+            },
+            "062": {
+                "n": "Stormarn"
+            }
+        }
+    },
+    "02": {
+        "n": "Freie und Hansestadt Hamburg",
+        "k": {
+            "000": {
+                "n": "Freie und Hansestadt Hamburg"
+            }
+        }
+    },
+    "03": {
+        "n": "Niedersachsen",
+        "k": {
+            "151": {
+                "n": "Gifhorn"
+            },
+            "153": {
+                "n": "Goslar"
+            },
+            "154": {
+                "n": "Helmstedt"
+            },
+            "155": {
+                "n": "Northeim"
+            },
+            "157": {
+                "n": "Peine"
+            },
+            "158": {
+                "n": "Wolfenbüttel"
+            },
+            "159": {
+                "n": "Göttingen"
+            },
+            "241": {
+                "n": "Hannover, Region"
+            },
+            "251": {
+                "n": "Diepholz"
+            },
+            "252": {
+                "n": "Hameln-Pyrmont"
+            },
+            "254": {
+                "n": "Hildesheim"
+            },
+            "255": {
+                "n": "Holzminden"
+            },
+            "256": {
+                "n": "Nienburg/Weser"
+            },
+            "257": {
+                "n": "Schaumburg"
+            },
+            "351": {
+                "n": "Celle"
+            },
+            "352": {
+                "n": "Cuxhaven"
+            },
+            "353": {
+                "n": "Harburg"
+            },
+            "354": {
+                "n": "Lüchow-Dannenberg"
+            },
+            "355": {
+                "n": "Lüneburg"
+            },
+            "356": {
+                "n": "Osterholz"
+            },
+            "357": {
+                "n": "Rotenburg (Wümme)"
+            },
+            "358": {
+                "n": "Heidekreis"
+            },
+            "359": {
+                "n": "Stade"
+            },
+            "360": {
+                "n": "Uelzen"
+            },
+            "361": {
+                "n": "Verden"
+            },
+            "451": {
+                "n": "Ammerland"
+            },
+            "452": {
+                "n": "Aurich"
+            },
+            "453": {
+                "n": "Cloppenburg"
+            },
+            "454": {
+                "n": "Emsland"
+            },
+            "455": {
+                "n": "Friesland"
+            },
+            "456": {
+                "n": "Grafschaft Bentheim"
+            },
+            "457": {
+                "n": "Leer"
+            },
+            "458": {
+                "n": "Oldenburg"
+            },
+            "459": {
+                "n": "Osnabrück"
+            },
+            "460": {
+                "n": "Vechta"
+            },
+            "461": {
+                "n": "Wesermarsch"
+            },
+            "462": {
+                "n": "Wittmund"
+            }
+        }
+    },
+    "04": {
+        "n": "Freie Hansestadt Bremen",
+        "k": {
+            "000": {
+                "n": "Freie Hansestadt Bremen"
+            }
+        }
+    },
+    "05": {
+        "n": "Nordrhein-Westfalen",
+        "k": {
+            "154": {
+                "n": "Kleve"
+            },
+            "158": {
+                "n": "Mettmann"
+            },
+            "162": {
+                "n": "Rhein-Kreis Neuss"
+            },
+            "166": {
+                "n": "Viersen"
+            },
+            "170": {
+                "n": "Wesel"
+            },
+            "334": {
+                "n": "Aachen, Städteregion"
+            },
+            "358": {
+                "n": "Düren"
+            },
+            "362": {
+                "n": "Rhein-Erft-Kreis"
+            },
+            "366": {
+                "n": "Euskirchen"
+            },
+            "370": {
+                "n": "Heinsberg"
+            },
+            "374": {
+                "n": "Oberbergischer Kreis"
+            },
+            "378": {
+                "n": "Rheinisch-Bergischer Kreis"
+            },
+            "382": {
+                "n": "Rhein-Sieg-Kreis"
+            },
+            "554": {
+                "n": "Borken"
+            },
+            "558": {
+                "n": "Coesfeld"
+            },
+            "562": {
+                "n": "Recklinghausen"
+            },
+            "566": {
+                "n": "Steinfurt"
+            },
+            "570": {
+                "n": "Warendorf"
+            },
+            "754": {
+                "n": "Gütersloh"
+            },
+            "758": {
+                "n": "Herford"
+            },
+            "762": {
+                "n": "Höxter"
+            },
+            "766": {
+                "n": "Lippe"
+            },
+            "770": {
+                "n": "Minden-Lübbecke"
+            },
+            "774": {
+                "n": "Paderborn"
+            },
+            "954": {
+                "n": "Ennepe-Ruhr-Kreis"
+            },
+            "958": {
+                "n": "Hochsauerlandkreis"
+            },
+            "962": {
+                "n": "Märkischer Kreis"
+            },
+            "966": {
+                "n": "Olpe"
+            },
+            "970": {
+                "n": "Siegen-Wittgenstein"
+            },
+            "974": {
+                "n": "Soest"
+            },
+            "978": {
+                "n": "Unna"
+            }
+        }
+    },
+    "06": {
+        "n": "Hessen",
+        "k": {
+            "431": {
+                "n": "Bergstraße"
+            },
+            "432": {
+                "n": "Darmstadt-Dieburg"
+            },
+            "433": {
+                "n": "Groß-Gerau"
+            },
+            "434": {
+                "n": "Hochtaunuskreis"
+            },
+            "435": {
+                "n": "Main-Kinzig-Kreis"
+            },
+            "436": {
+                "n": "Main-Taunus-Kreis"
+            },
+            "437": {
+                "n": "Odenwaldkreis"
+            },
+            "438": {
+                "n": "Offenbach"
+            },
+            "439": {
+                "n": "Rheingau-Taunus-Kreis"
+            },
+            "440": {
+                "n": "Wetteraukreis"
+            },
+            "531": {
+                "n": "Gießen"
+            },
+            "532": {
+                "n": "Lahn-Dill-Kreis"
+            },
+            "533": {
+                "n": "Limburg-Weilburg"
+            },
+            "534": {
+                "n": "Marburg-Biedenkopf"
+            },
+            "535": {
+                "n": "Vogelsbergkreis"
+            },
+            "631": {
+                "n": "Fulda"
+            },
+            "632": {
+                "n": "Hersfeld-Rotenburg"
+            },
+            "633": {
+                "n": "Kassel"
+            },
+            "634": {
+                "n": "Schwalm-Eder-Kreis"
+            },
+            "635": {
+                "n": "Waldeck-Frankenberg"
+            },
+            "636": {
+                "n": "Werra-Meißner-Kreis"
+            }
+        }
+    },
+    "07": {
+        "n": "Rheinland-Pfalz",
+        "k": {
+            "131": {
+                "n": "Ahrweiler"
+            },
+            "132": {
+                "n": "Altenkirchen (Westerwald)"
+            },
+            "133": {
+                "n": "Bad Kreuznach"
+            },
+            "134": {
+                "n": "Birkenfeld"
+            },
+            "135": {
+                "n": "Cochem-Zell"
+            },
+            "137": {
+                "n": "Mayen-Koblenz"
+            },
+            "138": {
+                "n": "Neuwied"
+            },
+            "140": {
+                "n": "Rhein-Hunsrück-Kreis"
+            },
+            "141": {
+                "n": "Rhein-Lahn-Kreis"
+            },
+            "143": {
+                "n": "Westerwaldkreis"
+            },
+            "231": {
+                "n": "Bernkastel-Wittlich"
+            },
+            "232": {
+                "n": "Eifelkreis Bitburg-Prüm"
+            },
+            "233": {
+                "n": "Vulkaneifel"
+            },
+            "235": {
+                "n": "Trier-Saarburg"
+            },
+            "331": {
+                "n": "Alzey-Worms"
+            },
+            "332": {
+                "n": "Bad Dürkheim"
+            },
+            "333": {
+                "n": "Donnersbergkreis"
+            },
+            "334": {
+                "n": "Germersheim"
+            },
+            "335": {
+                "n": "Kaiserslautern"
+            },
+            "336": {
+                "n": "Kusel"
+            },
+            "337": {
+                "n": "Südliche Weinstraße"
+            },
+            "338": {
+                "n": "Rhein-Pfalz-Kreis"
+            },
+            "339": {
+                "n": "Mainz-Bingen"
+            },
+            "340": {
+                "n": "Südwestpfalz"
+            }
+        }
+    },
+    "08": {
+        "n": "Baden-Württemberg",
+        "k": {
+            "115": {
+                "n": "Böblingen"
+            },
+            "116": {
+                "n": "Esslingen"
+            },
+            "117": {
+                "n": "Göppingen"
+            },
+            "118": {
+                "n": "Ludwigsburg"
+            },
+            "119": {
+                "n": "Rems-Murr-Kreis"
+            },
+            "125": {
+                "n": "Heilbronn"
+            },
+            "126": {
+                "n": "Hohenlohekreis"
+            },
+            "127": {
+                "n": "Schwäbisch Hall"
+            },
+            "128": {
+                "n": "Main-Tauber-Kreis"
+            },
+            "135": {
+                "n": "Heidenheim"
+            },
+            "136": {
+                "n": "Ostalbkreis"
+            },
+            "215": {
+                "n": "Karlsruhe"
+            },
+            "216": {
+                "n": "Rastatt"
+            },
+            "225": {
+                "n": "Neckar-Odenwald-Kreis"
+            },
+            "226": {
+                "n": "Rhein-Neckar-Kreis"
+            },
+            "235": {
+                "n": "Calw"
+            },
+            "236": {
+                "n": "Enzkreis"
+            },
+            "237": {
+                "n": "Freudenstadt"
+            },
+            "315": {
+                "n": "Breisgau-Hochschwarzwald"
+            },
+            "316": {
+                "n": "Emmendingen"
+            },
+            "317": {
+                "n": "Ortenaukreis"
+            },
+            "325": {
+                "n": "Rottweil"
+            },
+            "326": {
+                "n": "Schwarzwald-Baar-Kreis"
+            },
+            "327": {
+                "n": "Tuttlingen"
+            },
+            "335": {
+                "n": "Konstanz"
+            },
+            "336": {
+                "n": "Lörrach"
+            },
+            "337": {
+                "n": "Waldshut"
+            },
+            "415": {
+                "n": "Reutlingen"
+            },
+            "416": {
+                "n": "Tübingen"
+            },
+            "417": {
+                "n": "Zollernalbkreis"
+            },
+            "425": {
+                "n": "Alb-Donau-Kreis"
+            },
+            "426": {
+                "n": "Biberach"
+            },
+            "435": {
+                "n": "Bodenseekreis"
+            },
+            "436": {
+                "n": "Ravensburg"
+            },
+            "437": {
+                "n": "Sigmaringen"
+            }
+        }
+    },
+    "09": {
+        "n": "Freistaat Bayern",
+        "k": {
+            "171": {
+                "n": "Altötting"
+            },
+            "172": {
+                "n": "Berchtesgadener Land"
+            },
+            "173": {
+                "n": "Bad Tölz-Wolfratshausen"
+            },
+            "174": {
+                "n": "Dachau"
+            },
+            "175": {
+                "n": "Ebersberg"
+            },
+            "176": {
+                "n": "Eichstätt"
+            },
+            "177": {
+                "n": "Erding"
+            },
+            "178": {
+                "n": "Freising"
+            },
+            "179": {
+                "n": "Fürstenfeldbruck"
+            },
+            "180": {
+                "n": "Garmisch-Partenkirchen"
+            },
+            "181": {
+                "n": "Landsberg am Lech"
+            },
+            "182": {
+                "n": "Miesbach"
+            },
+            "183": {
+                "n": "Mühldorf am Inn"
+            },
+            "184": {
+                "n": "München"
+            },
+            "185": {
+                "n": "Neuburg-Schrobenhausen"
+            },
+            "186": {
+                "n": "Pfaffenhofen an der Ilm"
+            },
+            "187": {
+                "n": "Rosenheim"
+            },
+            "188": {
+                "n": "Starnberg"
+            },
+            "189": {
+                "n": "Traunstein"
+            },
+            "190": {
+                "n": "Weilheim-Schongau"
+            },
+            "271": {
+                "n": "Deggendorf"
+            },
+            "272": {
+                "n": "Freyung-Grafenau"
+            },
+            "273": {
+                "n": "Kelheim"
+            },
+            "274": {
+                "n": "Landshut"
+            },
+            "275": {
+                "n": "Passau"
+            },
+            "276": {
+                "n": "Regen"
+            },
+            "277": {
+                "n": "Rottal-Inn"
+            },
+            "278": {
+                "n": "Straubing-Bogen"
+            },
+            "279": {
+                "n": "Dingolfing-Landau"
+            },
+            "371": {
+                "n": "Amberg-Sulzbach"
+            },
+            "372": {
+                "n": "Cham"
+            },
+            "373": {
+                "n": "Neumarkt in der Oberpfalz"
+            },
+            "374": {
+                "n": "Neustadt an der Waldnaab"
+            },
+            "375": {
+                "n": "Regensburg"
+            },
+            "376": {
+                "n": "Schwandorf"
+            },
+            "377": {
+                "n": "Tirschenreuth"
+            },
+            "471": {
+                "n": "Bamberg"
+            },
+            "472": {
+                "n": "Bayreuth"
+            },
+            "473": {
+                "n": "Coburg"
+            },
+            "474": {
+                "n": "Forchheim"
+            },
+            "475": {
+                "n": "Hof"
+            },
+            "476": {
+                "n": "Kronach"
+            },
+            "477": {
+                "n": "Kulmbach"
+            },
+            "478": {
+                "n": "Lichtenfels"
+            },
+            "479": {
+                "n": "Wunsiedel im Fichtelgebirge"
+            },
+            "571": {
+                "n": "Ansbach"
+            },
+            "572": {
+                "n": "Erlangen-Höchstadt"
+            },
+            "573": {
+                "n": "Fürth"
+            },
+            "574": {
+                "n": "Nürnberger Land"
+            },
+            "575": {
+                "n": "Neustadt an der Aisch-Bad Windsheim"
+            },
+            "576": {
+                "n": "Roth"
+            },
+            "577": {
+                "n": "Weißenburg-Gunzenhausen"
+            },
+            "671": {
+                "n": "Aschaffenburg"
+            },
+            "672": {
+                "n": "Bad Kissingen"
+            },
+            "673": {
+                "n": "Rhön-Grabfeld"
+            },
+            "674": {
+                "n": "Haßberge"
+            },
+            "675": {
+                "n": "Kitzingen"
+            },
+            "676": {
+                "n": "Miltenberg"
+            },
+            "677": {
+                "n": "Main-Spessart"
+            },
+            "678": {
+                "n": "Schweinfurt"
+            },
+            "679": {
+                "n": "Würzburg"
+            },
+            "771": {
+                "n": "Aichach-Friedberg"
+            },
+            "772": {
+                "n": "Augsburg"
+            },
+            "773": {
+                "n": "Dillingen an der Donau"
+            },
+            "774": {
+                "n": "Günzburg"
+            },
+            "775": {
+                "n": "Neu-Ulm"
+            },
+            "776": {
+                "n": "Lindau (Bodensee)"
+            },
+            "777": {
+                "n": "Ostallgäu"
+            },
+            "778": {
+                "n": "Unterallgäu"
+            },
+            "779": {
+                "n": "Donau-Ries"
+            },
+            "780": {
+                "n": "Oberallgäu"
+            }
+        }
+    },
+    "10": {
+        "n": "Saarland",
+        "k": {
+            "041": {
+                "n": "Saarbrücken, Regionalverband"
+            },
+            "042": {
+                "n": "Merzig-Wadern"
+            },
+            "043": {
+                "n": "Neunkirchen"
+            },
+            "044": {
+                "n": "Saarlouis"
+            },
+            "045": {
+                "n": "Saarpfalz-Kreis"
+            },
+            "046": {
+                "n": "St. Wendel"
+            }
+        }
+    },
+    "11": {
+        "n": "Berlin",
+        "k": {
+            "000": {
+                "n": "Berlin"
+            }
+        }
+    },
+    "12": {
+        "n": "Brandenburg",
+        "k": {
+            "060": {
+                "n": "Barnim"
+            },
+            "061": {
+                "n": "Dahme-Spreewald"
+            },
+            "062": {
+                "n": "Elbe-Elster"
+            },
+            "063": {
+                "n": "Havelland"
+            },
+            "064": {
+                "n": "Märkisch-Oderland"
+            },
+            "065": {
+                "n": "Oberhavel"
+            },
+            "066": {
+                "n": "Oberspreewald-Lausitz"
+            },
+            "067": {
+                "n": "Oder-Spree"
+            },
+            "068": {
+                "n": "Ostprignitz-Ruppin"
+            },
+            "069": {
+                "n": "Potsdam-Mittelmark"
+            },
+            "070": {
+                "n": "Prignitz"
+            },
+            "071": {
+                "n": "Spree-Neiße"
+            },
+            "072": {
+                "n": "Teltow-Fläming"
+            },
+            "073": {
+                "n": "Uckermark"
+            }
+        }
+    },
+    "13": {
+        "n": "Mecklenburg-Vorpommern",
+        "k": {
+            "071": {
+                "n": "Mecklenburgische Seenplatte"
+            },
+            "072": {
+                "n": "Rostock"
+            },
+            "073": {
+                "n": "Vorpommern-Rügen"
+            },
+            "074": {
+                "n": "Nordwestmecklenburg"
+            },
+            "075": {
+                "n": "Vorpommern-Greifswald"
+            },
+            "076": {
+                "n": "Ludwigslust-Parchim"
+            }
+        }
+    },
+    "14": {
+        "n": "Freistaat Sachsen",
+        "k": {
+            "521": {
+                "n": "Erzgebirgskreis"
+            },
+            "522": {
+                "n": "Mittelsachsen"
+            },
+            "523": {
+                "n": "Vogtlandkreis"
+            },
+            "524": {
+                "n": "Zwickau"
+            },
+            "625": {
+                "n": "Bautzen"
+            },
+            "626": {
+                "n": "Görlitz"
+            },
+            "627": {
+                "n": "Meißen"
+            },
+            "628": {
+                "n": "Sächsische Schweiz-Osterzgebirge"
+            },
+            "729": {
+                "n": "Leipzig"
+            },
+            "730": {
+                "n": "Nordsachsen"
+            }
+        }
+    },
+    "15": {
+        "n": "Sachsen-Anhalt",
+        "k": {
+            "081": {
+                "n": "Altmarkkreis Salzwedel"
+            },
+            "082": {
+                "n": "Anhalt-Bitterfeld"
+            },
+            "083": {
+                "n": "Börde"
+            },
+            "084": {
+                "n": "Burgenlandkreis"
+            },
+            "085": {
+                "n": "Harz"
+            },
+            "086": {
+                "n": "Jerichower Land"
+            },
+            "087": {
+                "n": "Mansfeld-Südharz"
+            },
+            "088": {
+                "n": "Saalekreis"
+            },
+            "089": {
+                "n": "Salzlandkreis"
+            },
+            "090": {
+                "n": "Stendal"
+            },
+            "091": {
+                "n": "Wittenberg"
+            }
+        }
+    },
+    "16": {
+        "n": "Freistaat Thüringen",
+        "k": {
+            "061": {
+                "n": "Eichsfeld"
+            },
+            "062": {
+                "n": "Nordhausen"
+            },
+            "063": {
+                "n": "Wartburgkreis"
+            },
+            "064": {
+                "n": "Unstrut-Hainich-Kreis"
+            },
+            "065": {
+                "n": "Kyffhäuserkreis"
+            },
+            "066": {
+                "n": "Schmalkalden-Meiningen"
+            },
+            "067": {
+                "n": "Gotha"
+            },
+            "068": {
+                "n": "Sömmerda"
+            },
+            "069": {
+                "n": "Hildburghausen"
+            },
+            "070": {
+                "n": "Ilm-Kreis"
+            },
+            "071": {
+                "n": "Weimarer Land"
+            },
+            "072": {
+                "n": "Sonneberg"
+            },
+            "073": {
+                "n": "Saalfeld-Rudolstadt"
+            },
+            "074": {
+                "n": "Saale-Holzland-Kreis"
+            },
+            "075": {
+                "n": "Saale-Orla-Kreis"
+            },
+            "076": {
+                "n": "Greiz"
+            },
+            "077": {
+                "n": "Altenburger Land"
+            }
+        }
+    }
+}
