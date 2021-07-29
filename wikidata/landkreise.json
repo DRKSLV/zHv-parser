@@ -1,0 +1,887 @@
+{
+    "10041": {
+        "n": "Saarbrücken, Regionalverband"
+    },
+    "10042": {
+        "n": "Merzig-Wadern"
+    },
+    "10043": {
+        "n": "Neunkirchen"
+    },
+    "10044": {
+        "n": "Saarlouis"
+    },
+    "10045": {
+        "n": "Saarpfalz-Kreis"
+    },
+    "10046": {
+        "n": "St. Wendel"
+    },
+    "12060": {
+        "n": "Barnim"
+    },
+    "12061": {
+        "n": "Dahme-Spreewald"
+    },
+    "12062": {
+        "n": "Elbe-Elster"
+    },
+    "12063": {
+        "n": "Havelland"
+    },
+    "12064": {
+        "n": "Märkisch-Oderland"
+    },
+    "12065": {
+        "n": "Oberhavel"
+    },
+    "12066": {
+        "n": "Oberspreewald-Lausitz"
+    },
+    "12067": {
+        "n": "Oder-Spree"
+    },
+    "12068": {
+        "n": "Ostprignitz-Ruppin"
+    },
+    "12069": {
+        "n": "Potsdam-Mittelmark"
+    },
+    "12070": {
+        "n": "Prignitz"
+    },
+    "12071": {
+        "n": "Spree-Neiße"
+    },
+    "12072": {
+        "n": "Teltow-Fläming"
+    },
+    "12073": {
+        "n": "Uckermark"
+    },
+    "13071": {
+        "n": "Mecklenburgische Seenplatte"
+    },
+    "13072": {
+        "n": "Rostock"
+    },
+    "13073": {
+        "n": "Vorpommern-Rügen"
+    },
+    "13074": {
+        "n": "Nordwestmecklenburg"
+    },
+    "13075": {
+        "n": "Vorpommern-Greifswald"
+    },
+    "13076": {
+        "n": "Ludwigslust-Parchim"
+    },
+    "14521": {
+        "n": "Erzgebirgskreis"
+    },
+    "14522": {
+        "n": "Mittelsachsen"
+    },
+    "14523": {
+        "n": "Vogtlandkreis"
+    },
+    "14524": {
+        "n": "Zwickau"
+    },
+    "14625": {
+        "n": "Bautzen"
+    },
+    "14626": {
+        "n": "Görlitz"
+    },
+    "14627": {
+        "n": "Meißen"
+    },
+    "14628": {
+        "n": "Sächsische Schweiz-Osterzgebirge"
+    },
+    "14729": {
+        "n": "Leipzig"
+    },
+    "14730": {
+        "n": "Nordsachsen"
+    },
+    "15081": {
+        "n": "Altmarkkreis Salzwedel"
+    },
+    "15082": {
+        "n": "Anhalt-Bitterfeld"
+    },
+    "15083": {
+        "n": "Börde"
+    },
+    "15084": {
+        "n": "Burgenlandkreis"
+    },
+    "15085": {
+        "n": "Harz"
+    },
+    "15086": {
+        "n": "Jerichower Land"
+    },
+    "15087": {
+        "n": "Mansfeld-Südharz"
+    },
+    "15088": {
+        "n": "Saalekreis"
+    },
+    "15089": {
+        "n": "Salzlandkreis"
+    },
+    "15090": {
+        "n": "Stendal"
+    },
+    "15091": {
+        "n": "Wittenberg"
+    },
+    "16061": {
+        "n": "Eichsfeld"
+    },
+    "16062": {
+        "n": "Nordhausen"
+    },
+    "16063": {
+        "n": "Wartburgkreis"
+    },
+    "16064": {
+        "n": "Unstrut-Hainich-Kreis"
+    },
+    "16065": {
+        "n": "Kyffhäuserkreis"
+    },
+    "16066": {
+        "n": "Schmalkalden-Meiningen"
+    },
+    "16067": {
+        "n": "Gotha"
+    },
+    "16068": {
+        "n": "Sömmerda"
+    },
+    "16069": {
+        "n": "Hildburghausen"
+    },
+    "16070": {
+        "n": "Ilm-Kreis"
+    },
+    "16071": {
+        "n": "Weimarer Land"
+    },
+    "16072": {
+        "n": "Sonneberg"
+    },
+    "16073": {
+        "n": "Saalfeld-Rudolstadt"
+    },
+    "16074": {
+        "n": "Saale-Holzland-Kreis"
+    },
+    "16075": {
+        "n": "Saale-Orla-Kreis"
+    },
+    "16076": {
+        "n": "Greiz"
+    },
+    "16077": {
+        "n": "Altenburger Land"
+    },
+    "KrS": {
+        "n": "Landkreis/Kreis"
+    },
+    "05334": {
+        "n": "Aachen, Städteregion"
+    },
+    "07131": {
+        "n": "Ahrweiler"
+    },
+    "09771": {
+        "n": "Aichach-Friedberg"
+    },
+    "08425": {
+        "n": "Alb-Donau-Kreis"
+    },
+    "07132": {
+        "n": "Altenkirchen (Westerwald)"
+    },
+    "09171": {
+        "n": "Altötting"
+    },
+    "07331": {
+        "n": "Alzey-Worms"
+    },
+    "09371": {
+        "n": "Amberg-Sulzbach"
+    },
+    "03451": {
+        "n": "Ammerland"
+    },
+    "09571": {
+        "n": "Ansbach"
+    },
+    "09671": {
+        "n": "Aschaffenburg"
+    },
+    "09772": {
+        "n": "Augsburg"
+    },
+    "03452": {
+        "n": "Aurich"
+    },
+    "07332": {
+        "n": "Bad Dürkheim"
+    },
+    "09672": {
+        "n": "Bad Kissingen"
+    },
+    "07133": {
+        "n": "Bad Kreuznach"
+    },
+    "09173": {
+        "n": "Bad Tölz-Wolfratshausen"
+    },
+    "09471": {
+        "n": "Bamberg"
+    },
+    "09472": {
+        "n": "Bayreuth"
+    },
+    "09172": {
+        "n": "Berchtesgadener Land"
+    },
+    "06431": {
+        "n": "Bergstraße"
+    },
+    "07231": {
+        "n": "Bernkastel-Wittlich"
+    },
+    "08426": {
+        "n": "Biberach"
+    },
+    "07134": {
+        "n": "Birkenfeld"
+    },
+    "08115": {
+        "n": "Böblingen"
+    },
+    "08435": {
+        "n": "Bodenseekreis"
+    },
+    "05554": {
+        "n": "Borken"
+    },
+    "08315": {
+        "n": "Breisgau-Hochschwarzwald"
+    },
+    "08235": {
+        "n": "Calw"
+    },
+    "03351": {
+        "n": "Celle"
+    },
+    "09372": {
+        "n": "Cham"
+    },
+    "03453": {
+        "n": "Cloppenburg"
+    },
+    "09473": {
+        "n": "Coburg"
+    },
+    "07135": {
+        "n": "Cochem-Zell"
+    },
+    "05558": {
+        "n": "Coesfeld"
+    },
+    "03352": {
+        "n": "Cuxhaven"
+    },
+    "09174": {
+        "n": "Dachau"
+    },
+    "06432": {
+        "n": "Darmstadt-Dieburg"
+    },
+    "09271": {
+        "n": "Deggendorf"
+    },
+    "03251": {
+        "n": "Diepholz"
+    },
+    "09773": {
+        "n": "Dillingen an der Donau"
+    },
+    "09279": {
+        "n": "Dingolfing-Landau"
+    },
+    "01051": {
+        "n": "Dithmarschen"
+    },
+    "09779": {
+        "n": "Donau-Ries"
+    },
+    "07333": {
+        "n": "Donnersbergkreis"
+    },
+    "05358": {
+        "n": "Düren"
+    },
+    "09175": {
+        "n": "Ebersberg"
+    },
+    "09176": {
+        "n": "Eichstätt"
+    },
+    "07232": {
+        "n": "Eifelkreis Bitburg-Prüm"
+    },
+    "08316": {
+        "n": "Emmendingen"
+    },
+    "03454": {
+        "n": "Emsland"
+    },
+    "05954": {
+        "n": "Ennepe-Ruhr-Kreis"
+    },
+    "08236": {
+        "n": "Enzkreis"
+    },
+    "09177": {
+        "n": "Erding"
+    },
+    "09572": {
+        "n": "Erlangen-Höchstadt"
+    },
+    "08116": {
+        "n": "Esslingen"
+    },
+    "05366": {
+        "n": "Euskirchen"
+    },
+    "09474": {
+        "n": "Forchheim"
+    },
+    "09178": {
+        "n": "Freising"
+    },
+    "08237": {
+        "n": "Freudenstadt"
+    },
+    "09272": {
+        "n": "Freyung-Grafenau"
+    },
+    "03455": {
+        "n": "Friesland"
+    },
+    "06631": {
+        "n": "Fulda"
+    },
+    "09179": {
+        "n": "Fürstenfeldbruck"
+    },
+    "09573": {
+        "n": "Fürth"
+    },
+    "09180": {
+        "n": "Garmisch-Partenkirchen"
+    },
+    "07334": {
+        "n": "Germersheim"
+    },
+    "06531": {
+        "n": "Gießen"
+    },
+    "03151": {
+        "n": "Gifhorn"
+    },
+    "08117": {
+        "n": "Göppingen"
+    },
+    "03153": {
+        "n": "Goslar"
+    },
+    "03159": {
+        "n": "Göttingen"
+    },
+    "03456": {
+        "n": "Grafschaft Bentheim"
+    },
+    "06433": {
+        "n": "Groß-Gerau"
+    },
+    "09774": {
+        "n": "Günzburg"
+    },
+    "05754": {
+        "n": "Gütersloh"
+    },
+    "03252": {
+        "n": "Hameln-Pyrmont"
+    },
+    "03241": {
+        "n": "Hannover, Region"
+    },
+    "03353": {
+        "n": "Harburg"
+    },
+    "09674": {
+        "n": "Haßberge"
+    },
+    "03358": {
+        "n": "Heidekreis"
+    },
+    "08135": {
+        "n": "Heidenheim"
+    },
+    "08125": {
+        "n": "Heilbronn"
+    },
+    "05370": {
+        "n": "Heinsberg"
+    },
+    "03154": {
+        "n": "Helmstedt"
+    },
+    "05758": {
+        "n": "Herford"
+    },
+    "06632": {
+        "n": "Hersfeld-Rotenburg"
+    },
+    "01053": {
+        "n": "Herzogtum Lauenburg"
+    },
+    "03254": {
+        "n": "Hildesheim"
+    },
+    "05958": {
+        "n": "Hochsauerlandkreis"
+    },
+    "06434": {
+        "n": "Hochtaunuskreis"
+    },
+    "09475": {
+        "n": "Hof"
+    },
+    "08126": {
+        "n": "Hohenlohekreis"
+    },
+    "03255": {
+        "n": "Holzminden"
+    },
+    "05762": {
+        "n": "Höxter"
+    },
+    "07335": {
+        "n": "Kaiserslautern"
+    },
+    "08215": {
+        "n": "Karlsruhe"
+    },
+    "06633": {
+        "n": "Kassel"
+    },
+    "09273": {
+        "n": "Kelheim"
+    },
+    "09675": {
+        "n": "Kitzingen"
+    },
+    "05154": {
+        "n": "Kleve"
+    },
+    "08335": {
+        "n": "Konstanz"
+    },
+    "09476": {
+        "n": "Kronach"
+    },
+    "09477": {
+        "n": "Kulmbach"
+    },
+    "07336": {
+        "n": "Kusel"
+    },
+    "06532": {
+        "n": "Lahn-Dill-Kreis"
+    },
+    "09181": {
+        "n": "Landsberg am Lech"
+    },
+    "09274": {
+        "n": "Landshut"
+    },
+    "03457": {
+        "n": "Leer"
+    },
+    "09478": {
+        "n": "Lichtenfels"
+    },
+    "06533": {
+        "n": "Limburg-Weilburg"
+    },
+    "09776": {
+        "n": "Lindau (Bodensee)"
+    },
+    "05766": {
+        "n": "Lippe"
+    },
+    "08336": {
+        "n": "Lörrach"
+    },
+    "03354": {
+        "n": "Lüchow-Dannenberg"
+    },
+    "08118": {
+        "n": "Ludwigsburg"
+    },
+    "03355": {
+        "n": "Lüneburg"
+    },
+    "06435": {
+        "n": "Main-Kinzig-Kreis"
+    },
+    "09677": {
+        "n": "Main-Spessart"
+    },
+    "08128": {
+        "n": "Main-Tauber-Kreis"
+    },
+    "06436": {
+        "n": "Main-Taunus-Kreis"
+    },
+    "07339": {
+        "n": "Mainz-Bingen"
+    },
+    "06534": {
+        "n": "Marburg-Biedenkopf"
+    },
+    "05962": {
+        "n": "Märkischer Kreis"
+    },
+    "07137": {
+        "n": "Mayen-Koblenz"
+    },
+    "05158": {
+        "n": "Mettmann"
+    },
+    "09182": {
+        "n": "Miesbach"
+    },
+    "09676": {
+        "n": "Miltenberg"
+    },
+    "05770": {
+        "n": "Minden-Lübbecke"
+    },
+    "09183": {
+        "n": "Mühldorf am Inn"
+    },
+    "09184": {
+        "n": "München"
+    },
+    "08225": {
+        "n": "Neckar-Odenwald-Kreis"
+    },
+    "09775": {
+        "n": "Neu-Ulm"
+    },
+    "09185": {
+        "n": "Neuburg-Schrobenhausen"
+    },
+    "09373": {
+        "n": "Neumarkt in der Oberpfalz"
+    },
+    "09575": {
+        "n": "Neustadt an der Aisch-Bad Windsheim"
+    },
+    "09374": {
+        "n": "Neustadt an der Waldnaab"
+    },
+    "07138": {
+        "n": "Neuwied"
+    },
+    "03256": {
+        "n": "Nienburg/Weser"
+    },
+    "01054": {
+        "n": "Nordfriesland"
+    },
+    "03155": {
+        "n": "Northeim"
+    },
+    "09574": {
+        "n": "Nürnberger Land"
+    },
+    "09780": {
+        "n": "Oberallgäu"
+    },
+    "05374": {
+        "n": "Oberbergischer Kreis"
+    },
+    "06437": {
+        "n": "Odenwaldkreis"
+    },
+    "06438": {
+        "n": "Offenbach"
+    },
+    "03458": {
+        "n": "Oldenburg"
+    },
+    "05966": {
+        "n": "Olpe"
+    },
+    "08317": {
+        "n": "Ortenaukreis"
+    },
+    "03459": {
+        "n": "Osnabrück"
+    },
+    "08136": {
+        "n": "Ostalbkreis"
+    },
+    "09777": {
+        "n": "Ostallgäu"
+    },
+    "03356": {
+        "n": "Osterholz"
+    },
+    "01055": {
+        "n": "Ostholstein"
+    },
+    "05774": {
+        "n": "Paderborn"
+    },
+    "09275": {
+        "n": "Passau"
+    },
+    "03157": {
+        "n": "Peine"
+    },
+    "09186": {
+        "n": "Pfaffenhofen an der Ilm"
+    },
+    "01056": {
+        "n": "Pinneberg"
+    },
+    "01057": {
+        "n": "Plön"
+    },
+    "08216": {
+        "n": "Rastatt"
+    },
+    "08436": {
+        "n": "Ravensburg"
+    },
+    "05562": {
+        "n": "Recklinghausen"
+    },
+    "09276": {
+        "n": "Regen"
+    },
+    "09375": {
+        "n": "Regensburg"
+    },
+    "08119": {
+        "n": "Rems-Murr-Kreis"
+    },
+    "01058": {
+        "n": "Rendsburg-Eckernförde"
+    },
+    "08415": {
+        "n": "Reutlingen"
+    },
+    "05362": {
+        "n": "Rhein-Erft-Kreis"
+    },
+    "06439": {
+        "n": "Rheingau-Taunus-Kreis"
+    },
+    "07140": {
+        "n": "Rhein-Hunsrück-Kreis"
+    },
+    "05378": {
+        "n": "Rheinisch-Bergischer Kreis"
+    },
+    "05162": {
+        "n": "Rhein-Kreis Neuss"
+    },
+    "07141": {
+        "n": "Rhein-Lahn-Kreis"
+    },
+    "08226": {
+        "n": "Rhein-Neckar-Kreis"
+    },
+    "07338": {
+        "n": "Rhein-Pfalz-Kreis"
+    },
+    "05382": {
+        "n": "Rhein-Sieg-Kreis"
+    },
+    "09673": {
+        "n": "Rhön-Grabfeld"
+    },
+    "09187": {
+        "n": "Rosenheim"
+    },
+    "03357": {
+        "n": "Rotenburg (Wümme)"
+    },
+    "09576": {
+        "n": "Roth"
+    },
+    "09277": {
+        "n": "Rottal-Inn"
+    },
+    "08325": {
+        "n": "Rottweil"
+    },
+    "03257": {
+        "n": "Schaumburg"
+    },
+    "01059": {
+        "n": "Schleswig-Flensburg"
+    },
+    "08127": {
+        "n": "Schwäbisch Hall"
+    },
+    "06634": {
+        "n": "Schwalm-Eder-Kreis"
+    },
+    "09376": {
+        "n": "Schwandorf"
+    },
+    "08326": {
+        "n": "Schwarzwald-Baar-Kreis"
+    },
+    "09678": {
+        "n": "Schweinfurt"
+    },
+    "01060": {
+        "n": "Segeberg"
+    },
+    "05970": {
+        "n": "Siegen-Wittgenstein"
+    },
+    "08437": {
+        "n": "Sigmaringen"
+    },
+    "05974": {
+        "n": "Soest"
+    },
+    "03359": {
+        "n": "Stade"
+    },
+    "09188": {
+        "n": "Starnberg"
+    },
+    "01061": {
+        "n": "Steinburg"
+    },
+    "05566": {
+        "n": "Steinfurt"
+    },
+    "01062": {
+        "n": "Stormarn"
+    },
+    "09278": {
+        "n": "Straubing-Bogen"
+    },
+    "07337": {
+        "n": "Südliche Weinstraße"
+    },
+    "07340": {
+        "n": "Südwestpfalz"
+    },
+    "09377": {
+        "n": "Tirschenreuth"
+    },
+    "09189": {
+        "n": "Traunstein"
+    },
+    "07235": {
+        "n": "Trier-Saarburg"
+    },
+    "08416": {
+        "n": "Tübingen"
+    },
+    "08327": {
+        "n": "Tuttlingen"
+    },
+    "03360": {
+        "n": "Uelzen"
+    },
+    "05978": {
+        "n": "Unna"
+    },
+    "09778": {
+        "n": "Unterallgäu"
+    },
+    "03460": {
+        "n": "Vechta"
+    },
+    "03361": {
+        "n": "Verden"
+    },
+    "05166": {
+        "n": "Viersen"
+    },
+    "06535": {
+        "n": "Vogelsbergkreis"
+    },
+    "07233": {
+        "n": "Vulkaneifel"
+    },
+    "06635": {
+        "n": "Waldeck-Frankenberg"
+    },
+    "08337": {
+        "n": "Waldshut"
+    },
+    "05570": {
+        "n": "Warendorf"
+    },
+    "09190": {
+        "n": "Weilheim-Schongau"
+    },
+    "09577": {
+        "n": "Weißenburg-Gunzenhausen"
+    },
+    "06636": {
+        "n": "Werra-Meißner-Kreis"
+    },
+    "05170": {
+        "n": "Wesel"
+    },
+    "03461": {
+        "n": "Wesermarsch"
+    },
+    "07143": {
+        "n": "Westerwaldkreis"
+    },
+    "06440": {
+        "n": "Wetteraukreis"
+    },
+    "03462": {
+        "n": "Wittmund"
+    },
+    "03158": {
+        "n": "Wolfenbüttel"
+    },
+    "09479": {
+        "n": "Wunsiedel im Fichtelgebirge"
+    },
+    "09679": {
+        "n": "Würzburg"
+    },
+    "08417": {
+        "n": "Zollernalbkreis"
+    }
+}
