@@ -1,25 +1,26 @@
 # zHv-parser
-Javascript-Parser des von DELFI e.V zusammengetragenen Zentralen Haltestellen Verzeichnisses (ZHV)
+Javascript-Parser des von DELFI e.V zusammengetragenen Zentralen Haltestellen Verzeichnisses (ZHV).
 
 ## API
-kommt noch, hoffentlich
-es ist grade 4 uhr morgens
+zum bequemen abfragen der daten und suche nahegelegener haltestellen...
+
+kommt morgen, ok?
+es ist grade 4 uhr morgens.
 also ruhe jetz, ja?
 
 ## JSON Format
-Die klobige .csv Datei wird von dieser Repo in kleinere JSON-Dateien aufgespalten.
-Diese dateien sind freundlicher für javascript und (pssst! sie passen auch unter die Github-Dateigrößeobergrenze!)
-(Anmerkung: Die Variabelnamen sind meistens nur einzelne buchstaben, um die dateigröße klein zu halten)
+Die Library enthält die jetzigen Stationsinformationen als json-dateien.
+(siehe unten für automatische erzeugung )
 
-Es folgt eine erklärung der einzelnen Dateien:
-
+Es folgt eine erklärung der Dateien:
 
 ### `stations.json`
-Enthält alle Haltestellen, Bereiche und Gleise/Halte-Masten 
+Enthält alle Haltestellen, Bereiche und Gleise/Halte-Masten.
 (Bereiche werden zur gruppierung mehrerer Gleise genutzt, glaube ich)
 Die Datei enthält ein Object/Dictionary, dass jeweils die DHID (Dauerhafte Haltestellen-Id) als "Key" und ein Haltestellen-Objekt als "Value" hat.
-Das Haltestellen-Objekt hat folgendes Eigenschaften:
+![image](https://user-images.githubusercontent.com/56208328/127593290-f6dc83d5-d974-481c-88b0-a88fcbdfffca.png)
 
+### Haltestellen-Objekt
 - `n: String` Der Name der Haltestelle
 - `i: String` Der Teil der DHID, die nicht schon in der Gemeinde-Nummer steckt (platzsparmaßnahme halt)
 - `c: [Latitude, Longitude]` Koordinaten, verpackt in einem Array der Länge 2, als Kommazahlen 
@@ -30,25 +31,25 @@ Das Haltestellen-Objekt hat folgendes Eigenschaften:
   - Beispiel: rekonstruiert: "de:07334:30658"; `i`-Wert: "30130"; `m`-Wert: 7334034
 - `d: Number` District-Id - Die Stadtteilnummer 
   - Diesen Wert scheint niemand zu benutzen? An einigen stellen ist er definiert aber ohne entsprechenden Stadteilnamen also pfff   
- * `a: Number` Autorität-Id (Position im Array von `authorities.json`) (platzsparen, wie gesagt ne)
- * `des: String` die Beschreibung. (selten angegeben)
- * `s : Boolean` Ist die Haltestelle in Betrieb? Dieser Wert ist undefiniert, wenn sie in Betrieb sind (platz, natürlich, darum gehts doch immer) 
- * `b: Object/Dictionary<String, Bereich>` Bereiche (Quasi wie DateiOrdner für gleise und masten)
+- `a: Number` Autorität-Id (Position im Array von `authorities.json`) (platzsparen, wie gesagt ne)
+- `des: String` die Beschreibung. (selten angegeben)
+- `s : Boolean` Ist die Haltestelle in Betrieb? Dieser Wert ist undefiniert, wenn sie in Betrieb sind (platz, natürlich, darum gehts doch immer) 
+- `b: Object/Dictionary<String, Bereich>` Bereiche (Quasi wie DateiOrdner für gleise und masten)
 
+Haltestellen halten ihre Bereiche in der `b`-Eigenschaft, Bereiche ihre Gleise in der `g` Eigenschaft. 
 Die Bereichs und Gleisobjekte haben dieselbe struktur, außer das einige werte fehlen:
-- `a`
-- `m`
-- `d`
-- `i`
+`a`, `m`, `d` und `i`.
 
-Haltestellen halten ihre Bereiche in der `b`-Eigenschaft, Bereiche ihre Gleise in der `g` Eigenschaft (na logo)
+Aufgerolltes Beispiel der HAltestellen>Bereich>Gleis Struktur:
+![image](https://user-images.githubusercontent.com/56208328/127593334-257dfb85-1483-4ddd-8bf3-1fb64982fb81.png)
 
-Wichtig: Der Schlüssel in diesen Objekten entspricht jeweils dem Teil der DHID
+
+Wichtig: Der Schlüssel der Bereiche und Gleise Objekten entspricht jeweils einem Teil der DHID
 D.h Gleis-DHID: "de:07334:1734:1:1", Pfad: `haltestellen["de:07334:1734"].b.1.g.1`
 
-Beispiele für einzelne Haltestellen finden sie in examples.json
+Beispiele für einzelne Haltestellen finden sie in examples.json.
 
-Eine für die ersten 500 Zeilen lesbar formatierte version der Dateien finden sie jeweils mit dem -Debug suffix
+Eine für die ersten 500 Zeilen lesbar formatierte version der Dateien finden sie jeweils mit dem -Debug suffix.
 
 ### `municipalities.json`
 Die datei, wenn man anhand der gemeindeschlüssel den namen nachgucken möchte.
@@ -61,7 +62,9 @@ Ein Objekt, Schlüssel sind die Gemeindenummern (siehe oben), Wert ist je das Ge
 
 
 ### `authorities.json`
-Ein Array der Autoritätennamen
+Ein Array der Autoritätennamen:
+Oben gennante `a`-Eigenschaften verweisen auf diesen Array
+`["NVBW","BEG","VBB","VBN","Hamburger Hochbahn","rms","VMV","VRR","HannIT","VRN","ZPS","NASA","VVO","VMT","NVV"]`
 
 
 ## Build Befehl
