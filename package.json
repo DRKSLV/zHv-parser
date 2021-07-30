@@ -1,5 +1,5 @@
 {
-  "name": "zhv-de",
+  "name": "zhv-json",
   "version": "1.0.0",
   "description": "Javascript-Parser des von DELFI e.V zusammengetragenen Zentralen Haltestellen Verzeichnisses (ZHV)",
   "main": "index.js",
@@ -11,10 +11,29 @@
     "type": "git",
     "url": "git+https://github.com/DRKSLV/zHv-parser.git"
   },
-  "author": "Konrad Gruber",
+  "author": "Konrad Gruber <kongru@gmx.de>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/DRKSLV/zHv-parser/issues"
   },
-  "homepage": "https://github.com/DRKSLV/zHv-parser#readme"
+  "homepage": "https://github.com/DRKSLV/zHv-parser#readme",
+  "keywords": [
+		"public",
+		"transport",
+		"german",
+		"germany",
+		"registry",
+		"stop",
+		"station",
+		"zhv",
+		"haltestelle",
+		"verzeichnis",
+		"bahn",
+		"db",
+		"railway",
+		"bus",
+		"train",
+		"opendata",
+		"oepnv"
+	]
 }
