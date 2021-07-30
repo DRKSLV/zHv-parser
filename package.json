@@ -1,7 +1,6 @@
 {
   "name": "zhv-json",
-  "version": "1.0.0",
-  "description": "Javascript-Parser des von DELFI e.V zusammengetragenen Zentralen Haltestellen Verzeichnisses (ZHV)",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +16,7 @@
     "url": "https://github.com/DRKSLV/zHv-parser/issues"
   },
   "homepage": "https://github.com/DRKSLV/zHv-parser#readme",
+  "description": "JSON-Version des von DELFI e.V zusammengetragenen Zentralen Haltestellen Verzeichnisses (ZHV)",
   "keywords": [
 		"public",
 		"transport",

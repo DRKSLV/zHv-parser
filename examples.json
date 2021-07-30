@@ -1,7 +1,7 @@
 [{
     "comment": "in this example, areas are used to group gleises, sometimes with only one child",
 
-    "de:07334:1734":{"c":[49.049802,8.2608],"t":"S","i":"1734","n":"Wörth (Rhein) Bienwaldhalle","m":7334501,"a":0} , 
+    "Üde:07334:1734":{"c":[49.049802,8.2608],"t":"S","i":"1734","n":"Wörth (Rhein) Bienwaldhalle","m":7334501,"a":0} , 
     "de:07334:1734:1":{"c":[49.049873,8.260494],"t":"A","i":"1734:1","n":"Bstg. Ri. Badepar","m":0,"a":0} , 
     "de:07334:1734:2":{"c":[49.049714,8.261186],"t":"A","i":"1734:2","n":"Bstg. Ri. RK","m":0,"a":0} , 
     "de:07334:1734:3":{"c":[49.049861,8.259955],"t":"A","i":"1734:3","n":"EV","m":0,"s":false,"a":0} , 
@@ -14,7 +14,7 @@
 
     "converted":"\/",
 
-    "Öde:07334:1734":{"c":[49.049802,8.2608],"i":"1734","n":"Wörth (Rhein) Bienwaldhalle","m":7334501,"a":0,
+    "de:07334:1734":{"c":[49.049802,8.2608],"i":"1734","n":"Wörth (Rhein) Bienwaldhalle","m":7334501,"a":0,
         "b":{
             "1":{"c":[49.049873,8.260494],"n":"Bstg. Ri. Badepar",
                 "g":{
