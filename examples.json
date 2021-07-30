@@ -1,0 +1,82 @@
+[{
+    "comment": "in this example, areas are used to group gleises, sometimes with only one child",
+
+    "de:07334:1734":{"c":[49.049802,8.2608],"t":"S","i":"1734","n":"Wörth (Rhein) Bienwaldhalle","m":7334501,"a":0} , 
+    "de:07334:1734:1":{"c":[49.049873,8.260494],"t":"A","i":"1734:1","n":"Bstg. Ri. Badepar","m":0,"a":0} , 
+    "de:07334:1734:2":{"c":[49.049714,8.261186],"t":"A","i":"1734:2","n":"Bstg. Ri. RK","m":0,"a":0} , 
+    "de:07334:1734:3":{"c":[49.049861,8.259955],"t":"A","i":"1734:3","n":"EV","m":0,"s":false,"a":0} , 
+    "de:07334:1734:4":{"c":[49.049885,8.260171],"t":"A","i":"1734:4","n":"ZgRiWest","m":0,"s":false,"a":0} , 
+    "de:07334:1734:5":{"c":[49.04962,8.261536],"t":"A","i":"1734:5","n":"ZgRiOst","m":0,"s":false,"a":0} , 
+    "de:07334:1734:1:1":{"c":[49.049943,8.260368],"t":"Q","i":"1734:1:1","n":"Gleis Ri. Badepark","m":0,"a":0} , 
+    "de:07334:1734:2:2":{"c":[49.049649,8.261312],"t":"Q","i":"1734:2:2","n":"Gleis Ri. RK","m":0,"a":0} , 
+    "de:07334:1734:3:31":{"c":[49.050061,8.260296],"t":"Q","i":"1734:3:31","n":"B>RWRT","m":0,"s":false,"a":0} , 
+    "de:07334:1734:3:32":{"c":[49.050008,8.26027],"t":"Q","i":"1734:3:32","n":"B>ETF","m":0,"s":false,"a":0},
+
+    "converted":"\/",
+
+    "Öde:07334:1734":{"c":[49.049802,8.2608],"i":"1734","n":"Wörth (Rhein) Bienwaldhalle","m":7334501,"a":0,
+        "b":{
+            "1":{"c":[49.049873,8.260494],"n":"Bstg. Ri. Badepar",
+                "g":{
+                    "1":{"c":[49.049943,8.260368],"n":"Gleis Ri. Badepark"}
+                }
+            },
+            "2":{"c":[49.049714,8.261186],"n":"Bstg. Ri. RK",
+                "g":{
+                    "2":{"c":[49.049649,8.261312],"n":"Gleis Ri. RK"}
+                }
+            },
+            "3":{"c":[49.049861,8.259955],"n":"EV","s":false,
+                "g":{
+                    "31":{"c":[49.050061,8.260296],"n":"B>RWRT","s":false},
+                    "32":{"c":[49.050008,8.26027],"n":"B>ETF","s":false},
+                    "33":{"c":[49.049843,8.260009],"n":"EV (ungeplanter Fall bis Ibn. DFI)","s":false}
+                    }
+                }
+            ,"4":{"c":[49.049885,8.260171],"n":"ZgRiWest","s":false},
+            "5":{"c":[49.04962,8.261536],"n":"ZgRiOst","s":false}
+        }
+    }
+},
+{
+    "comment": "in this example, no areas are defined, instead it skips directly to the Gleis",
+
+    "tableview":"",
+    "de:06636:206737":{"c":[51.191822,9.721039],"t":"S","i":"206737","n":"Hessisch Lichtenau Karpfenfängerweg","m":6636006,"a":14} , 
+    "de:06636:206737::A":{"c":[51.191822,9.721039],"t":"Q","i":"206737::A","n":"Hessisch Lichtenau Karpfenfängerweg, Steig A","m":0,"a":14} , 
+    "de:06636:206737::B":{"c":[51.191822,9.721039],"t":"Q","i":"206737::B","n":"Hessisch Lichtenau Karpfenfängerweg, Steig B","m":0,"a":14} , 
+    "de:06636:206737::C":{"c":[51.191861,9.72102],"t":"Q","i":"206737::C","n":"Hessisch Lichtenau Karpfenfängerweg, Steig C","m":0,"a":14},
+        
+    "treeview":"",
+    "Öde:06636:206737":{"c":[51.191822,9.721039],"t":"S","i":"206737","n":"Hessisch Lichtenau Karpfenfängerweg","m":6636006,"a":14,
+        "b":{
+            "0":{
+                "g":{
+                    "A":{"c":[51.191822,9.721039],"n":"Hessisch Lichtenau Karpfenfängerweg, Steig A"},
+                    "B":{"c":[51.191822,9.721039],"n":"Hessisch Lichtenau Karpfenfängerweg, Steig B"},
+                    "C":{"c":[51.191861,9.72102],"n":"Hessisch Lichtenau Karpfenfängerweg, Steig C"}
+                }
+            }
+        }
+    } 
+},
+{
+    "comment": "in this example, area id 0 is used to mean 'no area', standalone",
+
+    "tableview":"",
+    "de:07334:32443":{"c":[49.257809,8.281209],"t":"S","i":"32443","n":"Weingarten (Pfalz) Schirlingsg","m":7334032,"a":0} , 
+    "de:07334:32443:0:1":{"c":[49.257792,8.281209],"t":"Q","i":"32443:0:1","n":"Steig_West","m":0,"a":0} , 
+    "de:07334:32443:0:2":{"c":[49.25778,8.281209],"t":"Q","i":"32443:0:2","n":"Steig_Ost","m":0,"a":0},
+
+    "treeview":"",
+    "Öde:07334:32443":{"c":[49.257809,8.281209],"t":"S","i":"32443","n":"Weingarten (Pfalz) Schirlingsg","m":7334032,"a":0,
+        "b":{
+            "0":{
+                "g":{
+                    "1":{"c":[49.257792,8.281209],"n":"Steig_West"},
+                    "2":{"c":[49.25778,8.281209],"n":"Steig_Ost"}
+                }
+            }
+        }
+    }
+}]

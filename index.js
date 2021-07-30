@@ -9,8 +9,6 @@ const data = fs.readFileSync( "./rawdata/"+process.argv[2] ).toString("utf8");
  */
 const Stations = {};
 
-
-
 /**
  * Alle Gemeinden
  * @type {Object.<number, Municipality>}
@@ -20,7 +18,7 @@ const Municipalities = {};
 /** @type {Array.<String>} */
 const Authorities = [];
 
-
+// 7, 8
 var anzStationen = 0, anzMasten = 0, anzBereiche = 0;
 
 /**
@@ -33,18 +31,34 @@ var anzStationen = 0, anzMasten = 0, anzBereiche = 0;
  * @property {String} a authority (avv, etc)
  * @property {String} des description
  * @property {Boolean} s is serviced? (if not defined, read as true)
+ * @property {Object.<string, Bereich>} b Bereiche (Quasi wie DateiOrdner für gleise und masten)
+ */
+
+/**
+ * @typedef Bereich 
+*  @property {String} n name
+ * @property {[number, number]} c coords [latitude, longitude]
+ * @property {String} des description
+ * @property {Boolean} s is serviced? (if not defined, read as true)
+ * @property {Object.<string, Gleis>} g Gleise/Masten 
+ */
+
+/**
+ * @typedef Gleis 
+*  @property {String} n name
+ * @property {[number, number]} c coords [latitude, longitude]
+ * @property {String} des description
+ * @property {Boolean} s is serviced? (if not defined, read as true)
  */
 
 /**
  * @typedef Municipality
  * @property {String} n name
- * @property {Object.<Number, String>} dists districts
- * @property {Array.<String>} auths authorities reporting stops for this Municipality
+ * @property {Object.<Number, String>} d districts
+ * @property {Array.<String>} a authorities reporting stops for this Municipality
  */
 
-/**
- * 
- */
+
 
 // ROWS
 var rows = data.split("\n");
@@ -84,7 +98,7 @@ rows.forEach( (row, rowNum) => {
         // assign field to current object
         switch (key) {
             case "DHID":
-                entryObject.i = field.split(":").slice(2).map((v) => Number.parseInt(v));
+                entryObject.i = field.split(":").slice(2).reduce((p, c, i, a) => i>0?p+":"+c:c, "")
                 return entryId = field;
             case "Name":
                 return entryObject.n = field;
@@ -127,37 +141,76 @@ rows.forEach( (row, rowNum) => {
     }
 
     //ENTRY: (type?)
-    //console.log(entryType);
+    
+    if(entryType==="A" || entryType==="Q") { // remove duplicate info 
+        delete entryObject.i;
+        delete entryObject.a;
+        delete entryObject.d;
+        delete entryObject.m;
+    }
+
+
     switch(entryType) {
         case "S": // HAltestelle
             Stations[entryId] = entryObject;
             anzStationen++;
             break;
         case "A": // bereich
-            //console.log("Ignoring BEreich");
-            //console.log(JSON.stringify(entryObject))
+            var splitt = entryId.split(":");
+            var myid = splitt[splitt.length-1];
+            var parent = Stations[entryParent] || {};
+
+            Stations[entryParent] = {
+                ...parent,
+                b: { ...parent.b , [myid]: entryObject}
+            }
+
             anzBereiche++;
             break;
         case "Q": // mast/steig
+            var splitt = entryId.split(":");
+            var superParentId = splitt.slice(0, 3).reduce((p, c, i, a) => i>0?p+":"+c:c, "") ;
+            var parentId = splitt[splitt.length-2] || 0;
+            var myid = splitt[splitt.length-1];
+            //console.log(`id: ${entryId}; my: ${myid}; parent: ${parentId}; superParent: ${superParentId}` )
+
+            var superParent = Stations[superParentId] || {};
+            var parent = (superParent.b || {})[parentId] || {}
+
+            Stations[superParentId] = {
+                ...superParent,
+                b: {
+                    ...superParent.b || {},
+                    [parentId]: {
+                        ...parent,
+                        g: {
+                            ...parent.g || {},
+                            [myid]: entryObject
+                        }
+                    }
+                }
+            };
             anzMasten++;
-            //console.log("Ignoring Steig")
             break;
     }
 
     // assign extracted municipality
     if(municipality.val){
-        var bef = Municipalities[municipality.key];
-        var befD = {};
-        if(bef) {
-            befD = bef.dists;
-        }
+        var bef = Municipalities[municipality.key] || {};
+        var befD = bef.d || {};
+    
         if(district.val)
             befD[district.key] = district.val;
 
+        var befA =(bef.a || []);
+        if(!befA.includes(entryObject.a)) {
+            befA.push(entryObject.a)
+        }
         
         Municipalities[municipality.key] = {
             n: municipality.val,
-            dists: befD
+            d: befD,
+            a: befA
         }
     }
 })
