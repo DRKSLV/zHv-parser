@@ -1,11 +1,12 @@
 {
-  "name": "zhv-parser",
+  "name": "zhv-de",
   "version": "1.0.0",
   "description": "Javascript-Parser des von DELFI e.V zusammengetragenen Zentralen Haltestellen Verzeichnisses (ZHV)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin" : { "build" : "./build.js" },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DRKSLV/zHv-parser.git"
